@@ -1161,14 +1161,14 @@ h6 {
 .footer .copyright {
     text-align: center;
     padding-top: 30px;
+    font-size: small;
 }
-
 @media (min-width: 768px) {
-    .footer .credit {
+    /* .footer .credit {
         text-align: right;
-    }
+    } */
     
     .footer .copyright {
-        text-align: left;
+        text-align: center;
     }
 }
