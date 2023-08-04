@@ -148,7 +148,33 @@ h6 {
     border-radius: 0;
     background: #f8f9fa;
 }
-
+@media (max-width: 768px) {
+    .header .carousel-item  .carousel-img{
+        display: none;
+    }
+    .header .carousel-content {
+        height: 55vh;
+        width: 100%;
+    }
+    .header .carousel-content h2 {
+        font-size: 35px !important;
+    }
+    .header .carousel-content .btn {
+        margin-bottom: 15px !important;
+    }
+    .cc1{
+        background-image: url(/img/slider-1.png);
+        background-repeat: no-repeat;
+    }
+    .cc2{
+        background-image: url(/img/slider-2.png);
+        background-repeat: no-repeat;
+    }
+    .cc3{
+        background-image: url(/img/slider-3.png);
+        background-repeat: no-repeat;
+    }
+}
 @media (min-width: 768px) {
     #nav,
     #nav .navbar {
@@ -222,7 +248,7 @@ h6 {
 }
 
 .header .carousel-content p {
-    color: #353535;
+    color: #000;
     font-size: 22px;
     font-weight: 500;
     letter-spacing: 1px;
